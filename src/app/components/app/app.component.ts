@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'phone-app',
-  templateUrl: 'app.tpl.html'
+  selector: 'ap-app',
+  templateUrl: 'app.template.pug'
 })
 export class AppComponent {}

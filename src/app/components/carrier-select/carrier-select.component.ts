@@ -3,8 +3,8 @@ import { Component, Output, EventEmitter } from '@angular/core';
 import { CarrierRepositoryService } from '../../services/carrier-repository/carrier-repository.service';
 
 @Component({
-  selector: 'carrier-select',
-  templateUrl: 'carrier-select.tpl.html'
+  selector: 'ap-carrier-select',
+  templateUrl: 'carrier-select.template.pug'
 })
 export class CarrierSelectComponent {
 

@@ -1,8 +1,8 @@
 import { Component, Inject } from '@angular/core';
 
 @Component({
-  selector: 'copyright',
-  templateUrl: 'copyright.tpl.html'
+  selector: 'ap-copyright',
+  templateUrl: 'copyright.template.pug'
 })
 export class CopyrightComponent {
 

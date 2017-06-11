@@ -1,0 +1,8 @@
+.btn-group([class.open]="isOpened")
+  button.btn.btn-default.dropdown-toggle(type="button", (click)="toggle()") {{ displaySelectedOption() }}&nbsp;
+    span.caret
+  ul.dropdown-menu
+    li
+      a((click)="select('')") Select all
+    li(*ngFor="let option of options")
+      a((click)="select(option)") {{ option }}

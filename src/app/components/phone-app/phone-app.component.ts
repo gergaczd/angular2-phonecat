@@ -4,8 +4,8 @@ import { ActivatedRoute } from '@angular/router';
 import { PhoneRepositoryService } from '../../services/phone-repository/phone-repository.service';
 
 @Component({
-  selector: 'phone-app',
-  templateUrl: 'phone-app.tpl.html'
+  selector: 'ap-phone-app',
+  templateUrl: 'phone-app.template.pug'
 })
 export class PhoneAppComponent {
 

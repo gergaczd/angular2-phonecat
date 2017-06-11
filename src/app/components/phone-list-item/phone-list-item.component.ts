@@ -2,8 +2,8 @@ import { Component, Input } from '@angular/core';
 import { PhoneModel } from '../../models/phone.model';
 
 @Component({
-  selector: 'list-item',
-  templateUrl: 'phone-list-item.tpl.html'
+  selector: 'ap-list-item',
+  templateUrl: 'phone-list-item.template.pug'
 })
 export class PhoneListItemComponent {
 

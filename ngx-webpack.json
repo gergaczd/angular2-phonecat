@@ -1,9 +1,11 @@
 {
   "port": 4000,
   "aot": true,
-  "styleFormat": "css",
-  "templateFormat": "html",
+  "styleFormat": "sass",
+  "templateFormat": "pug",
   "useDlls": true,
+  "useHash": false,
+  "serviceWorker": false,
   "liveReload": true,
   "indexHtml": true,
   "vendors": [

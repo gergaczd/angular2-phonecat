@@ -1,8 +1,8 @@
 import { Component, Output, Input, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'bootstrap-select',
-  templateUrl: 'bootstrap-select.tpl.html'
+  selector: 'ap-bootstrap-select',
+  templateUrl: 'bootstrap-select.template.pug'
 })
 export class BootstrapSelectComponent {
 

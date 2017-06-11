@@ -1,0 +1,9 @@
+.input-group
+  input.form-control(
+    type="text",
+    placeholder="Search...",
+    (keyup)="handleKeyUp($event)"
+  )
+  span.input-group-btn
+    button.btn.btn-default(type="button")
+      i.fa.fa-search
