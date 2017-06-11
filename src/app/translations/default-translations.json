@@ -1,0 +1,24 @@
+{
+  "phoneList": {
+    "title": "Phones",
+    "noPhone": "Oh god! There is no phone to show :("
+  },
+  "phone": {
+    "battery": "Battery",
+    "type": "Type",
+    "talk": "Talk Time",
+    "standby": "Standby time (max)",
+    "specs": "Technical specs",
+    "ram": "RAM",
+    "storage": "Internal Storage",
+    "cpu": "CPU",
+    "images": "Additional images"
+  },
+  "searchPanel": {
+    "selectAll": "Select all",
+    "allCarrier": "All carrier",
+    "placeholder": "Search..."
+  },
+  "title": "Journey towards Angular 2",
+  "copyright": "Copyright © Emartech %s"
+}

@@ -3,6 +3,6 @@
     span.caret
   ul.dropdown-menu
     li
-      a((click)="select('')") Select all
+      a((click)="select('')") {{ 'searchPanel.selectAll' | translate }}
     li(*ngFor="let option of options")
       a((click)="select(option)") {{ option }}

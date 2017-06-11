@@ -1,6 +1,6 @@
 .row
   .col-lg-12
-    h1.page-header Phones
+    h1.page-header {{ 'phoneList.title' | translate }}
 
   .row.ap-search-panel
     .col-lg-12.form-inline
@@ -11,6 +11,4 @@
     .col-md-3.text-center(*ngFor="let phone of phones.getAll()")
       ap-list-item([phone]="phone")
     .col-lg-12(*ngIf="phones.getAll().length == 0")
-      .alert.alert-warning(role="alert")
-        strong Oh god!
-        | There is no phone to show :(
+      .alert.alert-warning(role="alert") {{ 'phoneList.noPhone' | translate }}

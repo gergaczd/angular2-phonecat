@@ -10,25 +10,25 @@
   .col-md-7
     .row
       .col-md-6
-        h3 Battery
-        h4 Type
+        h3 {{ 'phone.battery' | translate }}
+        h4 {{ 'phone.type' | translate }}
         | {{ phone.battery.type }}
-        h4 Talk Time
+        h4 {{ 'phone.talk' | translate }}
         | {{ phone.battery.talkTime }}
-        h4 Standby time (max)
+        h4 {{ 'phone.standby' | translate }}
         | {{ phone.battery.standbyTime }}
       .col-md-6
-        h3 Technical specs
-        h4 RAM
+        h3 {{ 'phone.specs' | translate }}
+        h4 {{ 'phone.ram' | translate }}
         | {{ phone.storage.ram }}
-        h4 Internal Storage
+        h4 {{ 'phone.storage' | translate }}
         | {{ phone.storage.flash }}
-        h4 CPU
+        h4 {{ 'phone.cpu' | translate }}
         | {{ phone.hardware.cpu }}
 
 .row
   .col-lg-12
-    h3.page-header Additional images
+    h3.page-header {{ 'phone.images' | translate }}
 
   .col-sm-3.col-xs-6(*ngFor="let image of phone.images")
     img.img-responsive.img-related([src]="'assets/' + image", alt="")
