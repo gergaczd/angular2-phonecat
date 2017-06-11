@@ -1,7 +1,7 @@
 .thumbnail
   a.thumbnail-image([routerLink]="['phone', phone.id]")
     img.img-responsive([src]="'assets/' + phone.imageUrl", alt="")
-  .caption(style="height: 180px")
+  .caption.ap-phone-item-caption
     a([routerLink]="['phone', phone.id]")
       h3 {{ phone.name }}
     p {{ phone.snippet | shortDescription }}

@@ -4,7 +4,8 @@ import { FilteredPhoneListService } from '../../services/filtered-phone-list/fil
 
 @Component({
   selector: 'ap-phone-list-app',
-  templateUrl: 'phone-list-app.template.pug'
+  templateUrl: 'phone-list-app.template.pug',
+  styles: ['.row .ap-search-panel { margin-bottom: 20px; }']
 })
 export class PhoneListAppComponent {
 
