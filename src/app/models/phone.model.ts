@@ -1,6 +1,6 @@
 export interface PhoneModel {
-  id: String;
-  name: String;
-  snippet: String;
-  imageUrl: String;
+  id: string;
+  name: string;
+  snippet: string;
+  imageUrl: string;
 }

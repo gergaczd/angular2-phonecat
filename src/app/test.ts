@@ -6,5 +6,5 @@ TestBed.initTestEnvironment(
   platformBrowserDynamicTesting()
 );
 
-let testContext = (<any>require).context('./', true, /\.spec\.ts/);
+const testContext = (require as any).context('./', true, /\.spec\.ts/);
 testContext.keys().forEach(testContext);
